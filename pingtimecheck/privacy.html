@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ping Time Check 개인정보처리방침</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1d2327; --muted:#5f6b72; --line:#dfe5e8; --accent:#00796b; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#121516; --fg:#e4e9eb; --muted:#9aa7ad; --line:#2a3134; --accent:#4db6ac; }
+  }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font-family:-apple-system, "Segoe UI", "Noto Sans KR", "Apple SD Gothic Neo", sans-serif;
+         line-height:1.7; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:1.6rem; margin:0 0 4px; }
+  h2 { font-size:1.15rem; margin:36px 0 8px; padding-top:16px; border-top:1px solid var(--line); }
+  .meta { color:var(--muted); font-size:.9rem; }
+  a { color:var(--accent); }
+  table { border-collapse:collapse; width:100%; font-size:.93rem; }
+  th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:color-mix(in srgb, var(--accent) 10%, transparent); }
+  .en { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+<h1>Ping Time Check 개인정보처리방침</h1>
+<p class="meta">시행일: 2026년 10월 4일</p>
+
+<p>Ping Time Check(이하 “앱”)의 개발자(이하 “개발자”)는 이용자의 개인정보를 중요하게 생각하며, 「개인정보 보호법」 등 관련 법령을 준수합니다.
+이 방침은 앱이 어떤 정보를 어떻게 처리하는지 설명합니다.</p>
+
+<h2>1. 개발자가 수집하는 개인정보</h2>
+<p>개발자는 <strong>이용자의 개인정보를 직접 수집하거나 개발자의 서버로 전송하지 않습니다.</strong>
+앱에는 회원가입이나 로그인 기능이 없으며, 개발자가 운영하는 서버도 없습니다.</p>
+
+<h2>2. 기기 안에만 저장되는 정보</h2>
+<p>앱은 기능 제공을 위해 아래 정보를 <strong>이용자의 기기 내부</strong>에만 저장합니다. 이 정보는 외부로 전송되지 않습니다.</p>
+<table>
+  <tr><th>항목</th><th>용도</th></tr>
+  <tr><td>모니터 설정 (도메인/IP, 이름, 요청 주기, 타임아웃, 정상 응답시간 구간, 시작·종료 시간, 알림 여부)</td><td>핑 측정 수행</td></tr>
+  <tr><td>측정 기록 (측정 시각, 응답시간, 정상/이상/타임아웃 상태, 상태 변화 이벤트)</td><td>그래프, 통계, 로그 표시</td></tr>
+</table>
+<p>이용자가 CSV 복사 기능을 사용하면 측정 기록이 기기의 클립보드에 복사되며, 이후의 사용은 이용자가 직접 결정합니다.</p>
+
+<h2>3. 핑 측정 시 발생하는 통신</h2>
+<p>앱은 이용자가 직접 입력한 도메인 또는 IP 주소로 핑(ICMP) 요청을 보냅니다.
+이 과정에서 해당 대상 서버와 네트워크 경로상의 사업자는 일반적인 인터넷 통신과 마찬가지로 이용자 기기의 IP 주소를 확인할 수 있습니다.
+개발자는 이 통신 내용을 수집하지 않습니다.</p>
+
+<h2>4. 광고 (Google AdMob)</h2>
+<p>앱은 무료로 제공되며, 광고 표시를 위해 Google LLC의 <strong>Google AdMob</strong>을 사용합니다.
+AdMob은 광고 제공, 성과 측정, 부정 사용 방지를 위해 다음과 같은 정보를 수집·처리할 수 있습니다.</p>
+<ul>
+  <li>광고 ID (Android 광고 ID)</li>
+  <li>IP 주소 및 이를 통해 추정되는 대략적인 위치</li>
+  <li>기기 정보 (기기 모델, 운영체제 버전, 언어 설정 등)</li>
+  <li>광고 노출·클릭 등 광고와의 상호작용 정보</li>
+  <li>앱 비정상 종료 및 성능 관련 진단 정보</li>
+</ul>
+<p>이 정보는 Google의 정책에 따라 처리되며, 개발자는 이를 직접 받아 보관하지 않습니다. 자세한 내용은 아래 문서를 참고하세요.</p>
+<ul>
+  <li><a href="https://policies.google.com/privacy">Google 개인정보처리방침</a></li>
+  <li><a href="https://policies.google.com/technologies/partner-sites">Google 파트너의 사이트 또는 앱 사용 시 Google의 데이터 사용 방식</a></li>
+</ul>
+<p><strong>맞춤 광고 거부 방법:</strong> Android 기기의 <em>설정 → Google → 광고</em>(기기에 따라 <em>설정 → 보안 및 개인정보 보호 → 개인정보 보호 → 광고</em>)에서 광고 ID를 재설정하거나 삭제할 수 있습니다.</p>
+
+<h2>5. 앱이 사용하는 권한</h2>
+<table>
+  <tr><th>권한</th><th>용도</th></tr>
+  <tr><td>인터넷</td><td>핑 측정 및 광고 표시</td></tr>
+  <tr><td>알림</td><td>이상 감지, 정상 복귀, 측정 진행 상태 알림</td></tr>
+  <tr><td>포그라운드 서비스</td><td>앱을 닫아도 이용자가 요청한 측정을 계속 수행</td></tr>
+  <tr><td>절전 모드 방지(Wake Lock), 배터리 최적화 제외 요청</td><td>백그라운드 측정이 중단되지 않도록 유지 (배터리 최적화 제외는 선택 사항)</td></tr>
+</table>
+
+<h2>6. 보관 기간 및 파기</h2>
+<p>기기에 저장된 설정과 측정 기록은 이용자가 삭제할 때까지 보관됩니다. 이용자는 언제든지 다음 방법으로 삭제할 수 있습니다.</p>
+<ul>
+  <li>앱의 모니터 상세 화면에서 <em>기록 삭제</em> 또는 <em>모니터 삭제</em></li>
+  <li>Android <em>설정 → 앱 → Ping Time Check → 저장공간 → 데이터 삭제</em></li>
+  <li>앱 삭제 (모든 데이터가 함께 삭제됩니다)</li>
+</ul>
+
+<h2>7. 개인정보의 제3자 제공</h2>
+<p>개발자는 이용자의 개인정보를 제3자에게 판매하거나 제공하지 않습니다. 단, 4항의 광고 서비스(Google AdMob)가 해당 서비스 정책에 따라 정보를 처리하는 경우는 예외입니다.</p>
+
+<h2>8. 아동의 개인정보</h2>
+<p>앱은 만 14세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 고의로 수집하지 않습니다.</p>
+
+<h2>9. 이용자의 권리</h2>
+<p>앱에 저장된 정보는 모두 이용자의 기기 안에 있으므로, 이용자는 6항의 방법으로 직접 열람·삭제할 수 있습니다.
+광고와 관련된 정보는 4항의 방법과 Google의 개인정보 관리 도구를 통해 관리할 수 있습니다.</p>
+
+<h2>10. 문의처</h2>
+<p>개인정보 관련 문의는 아래 이메일로 연락해 주세요.<br>
+이메일: <a href="mailto:jdjhaha1@gmail.com">jdjhaha1@gmail.com</a></p>
+
+<h2>11. 방침의 변경</h2>
+<p>이 방침이 변경되면 이 페이지에 변경 내용과 시행일을 게시합니다.</p>
+
+<h2 class="en">Summary (English)</h2>
+<p class="en">Ping Time Check does not collect personal data on any developer-operated server. Monitor settings and ping results are stored only on your device and can be deleted at any time in the app or by uninstalling it.
+The app sends ping (ICMP) requests only to hosts you enter. The app displays ads through Google AdMob, which may collect the advertising ID, IP address, device information, and ad interaction data under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
+The app is not directed at children. Contact: <a href="mailto:jdjhaha1@gmail.com">jdjhaha1@gmail.com</a>. Effective date: October 4, 2026.</p>
+</main>
+</body>
+</html>
