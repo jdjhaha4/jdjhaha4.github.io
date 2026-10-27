@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>jjdev 앱 소개 - 하루약 · Ping Time Check · SpeedMate · 군웅난무</title>
-<meta name="description" content="개인 개발자 jjdev가 만든 안드로이드 앱 모음. 복약 알림 앱 하루약, 핑 모니터 Ping Time Check, 자전거 속도계 SpeedMate, 무협 생존 액션 게임 군웅난무를 소개합니다.">
+<title>jjdev 앱 소개 - 하루약 · 모아톡 · Ping Time Check · SpeedMate · 군웅난무</title>
+<meta name="description" content="개인 개발자 jjdev가 만든 안드로이드 앱 모음. 복약 알림 앱 하루약, 공유 메모 앱 모아톡, 핑 모니터 Ping Time Check, 자전거 속도계 SpeedMate, 무협 생존 액션 게임 군웅난무를 소개합니다.">
 <meta name="google-site-verification" content="75INzQk85mEmMhTQg8WczabaUoZXQcOH2g8d2n3qizI">
 <meta name="naver-site-verification" content="d08f96795f6a467a383c751e08be4c67728a23ec">
 <meta name="author" content="jjdev">
@@ -14,13 +14,13 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="jjdev 앱 소개">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:title" content="jjdev 앱 소개 - 하루약 · Ping Time Check · SpeedMate · 군웅난무">
-<meta property="og:description" content="개인 개발자 jjdev가 만든 안드로이드 앱 모음. 복약 알림 앱 하루약, 핑 모니터 Ping Time Check, 자전거 속도계 SpeedMate, 무협 생존 액션 게임 군웅난무를 소개합니다.">
+<meta property="og:title" content="jjdev 앱 소개 - 하루약 · 모아톡 · Ping Time Check · SpeedMate · 군웅난무">
+<meta property="og:description" content="개인 개발자 jjdev가 만든 안드로이드 앱 모음. 복약 알림 앱 하루약, 공유 메모 앱 모아톡, 핑 모니터 Ping Time Check, 자전거 속도계 SpeedMate, 무협 생존 액션 게임 군웅난무를 소개합니다.">
 <meta property="og:url" content="https://jdjhaha4.github.io/">
 <meta property="og:image" content="https://jdjhaha4.github.io/images/og-home.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="jjdev 앱 소개 - 하루약 · Ping Time Check · SpeedMate · 군웅난무">
-<meta name="twitter:description" content="개인 개발자 jjdev가 만든 안드로이드 앱 모음. 복약 알림 앱 하루약, 핑 모니터 Ping Time Check, 자전거 속도계 SpeedMate, 무협 생존 액션 게임 군웅난무를 소개합니다.">
+<meta name="twitter:title" content="jjdev 앱 소개 - 하루약 · 모아톡 · Ping Time Check · SpeedMate · 군웅난무">
+<meta name="twitter:description" content="개인 개발자 jjdev가 만든 안드로이드 앱 모음. 복약 알림 앱 하루약, 공유 메모 앱 모아톡, 핑 모니터 Ping Time Check, 자전거 속도계 SpeedMate, 무협 생존 액션 게임 군웅난무를 소개합니다.">
 <meta name="twitter:image" content="https://jdjhaha4.github.io/images/og-home.jpg">
 <script type="application/ld+json">
 {
@@ -52,18 +52,24 @@
     {
      "@type": "ListItem",
      "position": 2,
+     "url": "https://jdjhaha4.github.io/talkmoa/",
+     "name": "모아톡 - 공유 메모 · 태그 정리"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
      "url": "https://jdjhaha4.github.io/pingtimecheck/",
      "name": "Ping Time Check - 핑 모니터"
     },
     {
      "@type": "ListItem",
-     "position": 3,
+     "position": 4,
      "url": "https://jdjhaha4.github.io/speedmate/",
      "name": "SpeedMate - 자전거 속도계"
     },
     {
      "@type": "ListItem",
-     "position": 4,
+     "position": 5,
      "url": "https://jdjhaha4.github.io/gunungnanmu/",
      "name": "군웅난무"
     }
@@ -74,10 +80,10 @@
 </script>
 <style>
   :root { --bg:#f6f8f9; --card:#ffffff; --fg:#1d2327; --muted:#5f6b72; --line:#dfe5e8;
-          --pill:#e86a4a; --ping:#00796b; --speed:#1e6fd9; --game:#b23a2e; }
+          --pill:#e86a4a; --ping:#00796b; --speed:#1e6fd9; --memo:#4444b8; --game:#b23a2e; }
   @media (prefers-color-scheme: dark) {
     :root { --bg:#111415; --card:#1a1f21; --fg:#e4e9eb; --muted:#9aa7ad; --line:#2a3134;
-            --pill:#f08a6e; --ping:#4db6ac; --speed:#6aa8f5; --game:#e0705f; }
+            --pill:#f08a6e; --ping:#4db6ac; --speed:#6aa8f5; --memo:#a9a7ff; --game:#e0705f; }
   }
   * { box-sizing:border-box; }
   body { margin:0; background:var(--bg); color:var(--fg); line-height:1.65;
@@ -145,6 +151,26 @@
       <div class="links">
         <a class="primary" href="https://play.google.com/store/apps/details?id=com.jjdev.pillsnap">Google Play에서 보기</a>
         <a href="haruyak/">자세히 보기</a>
+      </div>
+    </article>
+
+    <article class="app" style="--accent:var(--memo)">
+      <div class="head">
+        <img src="icons/talkmoa.png" alt="모아톡 아이콘" width="56" height="56">
+        <div><h3><a href="talkmoa/">모아톡</a></h3><div class="cat">공유 메모 · 태그 정리</div></div>
+      </div>
+      <p class="tagline">카톡 속 중요한 내용을 공유 한 번으로</p>
+      <ul>
+        <li>공유 → 모아톡 → 태그 선택, 3초 만에 저장</li>
+        <li>회사·배우자·자녀 등 태그별 정리, 다중 태그</li>
+        <li>날짜·금액·계좌·전화번호·링크 자동 감지, 캘린더 표시</li>
+        <li>사진·문서 저장과 사진 속 글자 인식, 통합 검색</li>
+      </ul>
+      <p class="note">메모는 서버 없이 휴대폰 안에만 저장합니다.</p>
+      <div class="links">
+        <a class="primary" href="https://play.google.com/store/apps/details?id=com.jjdev.talkmoa">Google Play에서 보기</a>
+        <a href="talkmoa/">자세히 보기</a>
+        <a href="/talkmoa-policy/">개인정보처리방침</a>
       </div>
     </article>
 
