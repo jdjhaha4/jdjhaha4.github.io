@@ -7,6 +7,9 @@
 - [하루약 - 복약 알림 · 재고 관리](https://jdjhaha4.github.io/haruyak/): 정시 알림부터 재고 관리까지, 회원가입 없이 내 폰에만 안전하게 기록하는 복약 관리 앱 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.pillsnap)
 - [모아톡 - 공유 메모 · 태그 정리](https://jdjhaha4.github.io/talkmoa/): 카톡·문자·메일 속 일정·계좌·링크를 공유 한 번으로 저장하고 태그별로 정리하세요 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.talkmoa)
 - [급여노트 - 퇴직금·실수령액·주휴수당·연차 계산기](https://jdjhaha4.github.io/salarynote/): 퇴직금, 연봉 실수령액, 주휴수당, 연차, 4대보험을 최신 요율로 바로 계산하는 급여 계산기 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.salary_note)
+- [근무노트 - 알바 급여 계산기·주휴수당·근무기록](https://jdjhaha4.github.io/geunmunote/): 출퇴근만 기록하면 주휴수당·야간수당·3.3%까지 반영한 이번 달 알바비를 계산하는 근무기록 앱 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.alba_note)
+- [대출노트 - 대출이자 계산기·DSR·상환 관리](https://jdjhaha4.github.io/loannote/): 대출이자·DSR 한도·중도상환을 바로 계산하고, 내 대출의 남은 원금과 상환일을 관리하는 대출 계산기 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.loan_note)
+- [프리랜서노트 - 3.3% 계산기·종합소득세·수입 관리](https://jdjhaha4.github.io/freelancernote/): 3.3% 뗀 수입을 기록하면 5월 종합소득세 환급·납부 예상을 계산해 주는 수수료 없는 프리랜서 계산기 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.freelancer_note)
 - [Ping Time Check - 핑 모니터](https://jdjhaha4.github.io/pingtimecheck/): 도메인·IP 핑 응답시간을 백그라운드로 기록하고, 이상이 생기면 바로 알려드립니다. (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.pingtimecheck)
 - [SpeedMate - 자전거 속도계](https://jdjhaha4.github.io/speedmate/): GPS로 자전거 속도·거리·주행 시간을 실시간 측정하는 간편한 속도계 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.speedmate)
 
