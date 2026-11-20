@@ -12,6 +12,9 @@
 - [프리랜서노트 - 3.3% 계산기·종합소득세·수입 관리](https://jdjhaha4.github.io/freelancernote/): 3.3% 뗀 수입을 기록하면 5월 종합소득세 환급·납부 예상을 계산해 주는 수수료 없는 프리랜서 계산기 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.freelancer_note)
 - [Ping Time Check - 핑 모니터](https://jdjhaha4.github.io/pingtimecheck/): 도메인·IP 핑 응답시간을 백그라운드로 기록하고, 이상이 생기면 바로 알려드립니다. (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.pingtimecheck)
 - [SpeedMate - 자전거 속도계](https://jdjhaha4.github.io/speedmate/): GPS로 자전거 속도·거리·주행 시간을 실시간 측정하는 간편한 속도계 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.speedmate)
+- [분할풀기 - 7z zip rar 분할 압축 해제](https://jdjhaha4.github.io/bunhalpulgi/): 7z·zip·rar 분할 압축(.001 / .part1.rar)을 한 번에 골라 풀고, 다 쓴 조각은 자동으로 정리하는 압축 해제 앱 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.splitunzip.free)
+- [연말정산노트 - 환급액 계산기·13월의 월급 미리보기](https://jdjhaha4.github.io/yearendnote/): 총급여와 카드값만 넣으면 2026년 연말정산 환급액을 미리 계산하고, 12월에 더 받는 방법을 알려 주는 계산기 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.yearend_note)
+- [실업급여노트 - 실업급여 계산기·실업인정일 관리](https://jdjhaha4.github.io/unemploymentnote/): 퇴사 전 급여만 넣으면 실업급여 예상액을 계산하고, 실업인정일·구직활동·받은 금액을 챙겨 주는 앱 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.unemployment_note)
 
 ## 게임
 
