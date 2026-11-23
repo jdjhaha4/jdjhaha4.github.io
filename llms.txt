@@ -16,6 +16,7 @@
 - [연말정산노트 - 환급액 계산기·13월의 월급 미리보기](https://jdjhaha4.github.io/yearendnote/): 총급여와 카드값만 넣으면 2026년 연말정산 환급액을 미리 계산하고, 12월에 더 받는 방법을 알려 주는 계산기 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.yearend_note)
 - [실업급여노트 - 실업급여 계산기·실업인정일 관리](https://jdjhaha4.github.io/unemploymentnote/): 퇴사 전 급여만 넣으면 실업급여 예상액을 계산하고, 실업인정일·구직활동·받은 금액을 챙겨 주는 앱 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.unemployment_note)
 - [연금노트 - 국민연금·퇴직연금·연금저축 계산기](https://jdjhaha4.github.io/pensionnote/): 국민연금·퇴직연금(IRP)·연금저축을 모아 몇 살부터 매달 얼마, 세금은 얼마인지 계산하고 연금 세액공제 마감을 알려 주는 계산기 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.pension_note)
+- [부동산세금노트 - 양도세·취득세 계산기](https://jdjhaha4.github.io/realestatenote/): 양도세·취득세·중개보수·증여세를 계산 과정까지 보여 주고, 내 집의 절세일과 신고 기한을 알려 주는 부동산 세금 계산기 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.realestate_tax_note)
 
 ## 게임
 
