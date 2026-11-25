@@ -138,6 +138,24 @@
      "position": 16,
      "url": "https://jdjhaha4.github.io/realestatenote/",
      "name": "부동산세금노트 - 양도세·취득세 계산기"
+    },
+    {
+     "@type": "ListItem",
+     "position": 17,
+     "url": "https://jdjhaha4.github.io/transitnote/",
+     "name": "교통비노트 - K패스 모두의카드 환급 계산"
+    },
+    {
+     "@type": "ListItem",
+     "position": 18,
+     "url": "https://jdjhaha4.github.io/youthsavingsnote/",
+     "name": "청년미래적금노트 - 만기 수령액 계산"
+    },
+    {
+     "@type": "ListItem",
+     "position": 19,
+     "url": "https://jdjhaha4.github.io/depositnote/",
+     "name": "예적금노트 - 예금 적금 이자 계산기"
     }
    ]
   }
@@ -146,10 +164,10 @@
 </script>
 <style>
   :root { --bg:#f6f8f9; --card:#ffffff; --fg:#1d2327; --muted:#5f6b72; --line:#dfe5e8;
-          --pill:#e86a4a; --ping:#00796b; --speed:#1e6fd9; --memo:#4444b8; --salary:#2f5bea; --work:#0b8a55; --loan:#1f3fd1; --freelancer:#0c7f86; --game:#b23a2e; --ink:#3d4f7c; --gold:#9a6a12; --split:#2e6be6; --yearend:#6c4ce0; --unemp:#c9501f; --pension:#a86206; --realestate:#0e8c8c; }
+          --pill:#e86a4a; --ping:#00796b; --speed:#1e6fd9; --memo:#4444b8; --salary:#2f5bea; --work:#0b8a55; --loan:#1f3fd1; --freelancer:#0c7f86; --game:#b23a2e; --ink:#3d4f7c; --gold:#9a6a12; --split:#2e6be6; --yearend:#6c4ce0; --unemp:#c9501f; --pension:#a86206; --realestate:#0e8c8c; --transit:#0e9384; --youth:#3b5bdb; --deposit:#0f9d8a; }
   @media (prefers-color-scheme: dark) {
     :root { --bg:#111415; --card:#1a1f21; --fg:#e4e9eb; --muted:#9aa7ad; --line:#2a3134;
-            --pill:#f08a6e; --ping:#4db6ac; --speed:#6aa8f5; --memo:#a9a7ff; --salary:#7f9bff; --work:#4fd39a; --loan:#9db2ff; --freelancer:#5fd0d0; --game:#e0705f; --ink:#9fb3e6; --gold:#e0b04a; --split:#9db8ff; --yearend:#a993ff; --unemp:#ff9466; --pension:#f2b04a; --realestate:#4fc9c4; }
+            --pill:#f08a6e; --ping:#4db6ac; --speed:#6aa8f5; --memo:#a9a7ff; --salary:#7f9bff; --work:#4fd39a; --loan:#9db2ff; --freelancer:#5fd0d0; --game:#e0705f; --ink:#9fb3e6; --gold:#e0b04a; --split:#9db8ff; --yearend:#a993ff; --unemp:#ff9466; --pension:#f2b04a; --realestate:#4fc9c4; --transit:#4fd1c0; --youth:#8da4ff; --deposit:#5fd4c0; }
   }
   * { box-sizing:border-box; }
   body { margin:0; background:var(--bg); color:var(--fg); line-height:1.65;
@@ -455,6 +473,63 @@
         <a class="primary" href="https://play.google.com/store/apps/details?id=com.jjdev.realestate_tax_note">Google Play에서 보기</a>
         <a href="realestatenote/">자세히 보기</a>
         <a href="/realestate-tax-note-policy/">개인정보처리방침</a>
+      </div>
+    </article>
+    <article class="app" style="--accent:var(--transit)">
+      <div class="head">
+        <img src="icons/transitnote.png" alt="교통비노트 아이콘" width="56" height="56">
+        <div><h3><a href="transitnote/">교통비노트</a></h3><div class="cat">K-패스 교통비 환급 계산 · 기록</div></div>
+      </div>
+      <p class="tagline">이번 달 교통비, 얼마 돌려받을까</p>
+      <ul>
+        <li>탈 때 한 번 눌러 교통비 기록</li>
+        <li>기본형·일반형·플러스형 중 큰 금액 자동 비교</li>
+        <li>출퇴근 시차시간 +30%p 자동 표시</li>
+        <li>월 15회 조건·월말 결산·환급 입금일 알림</li>
+      </ul>
+      <p class="note">국토교통부·K-패스·카드사와 관련 없는 참고용 계산기입니다. 정보는 기기 안에만 저장합니다.</p>
+      <div class="links">
+        <a class="primary" href="https://play.google.com/store/apps/details?id=com.jjdev.transit_note">Google Play에서 보기</a>
+        <a href="transitnote/">자세히 보기</a>
+        <a href="/transit-note-policy/">개인정보처리방침</a>
+      </div>
+    </article>
+    <article class="app" style="--accent:var(--youth)">
+      <div class="head">
+        <img src="icons/youthsavingsnote.png" alt="청년미래적금노트 아이콘" width="56" height="56">
+        <div><h3><a href="youthsavingsnote/">청년미래적금노트</a></h3><div class="cat">청년미래적금 만기 · 정부기여금 계산</div></div>
+      </div>
+      <p class="tagline">3년 뒤 만기에 얼마 받을까</p>
+      <ul>
+        <li>정부기여금·이자·만기 수령액 계산 과정 공개</li>
+        <li>한 번 눌러 납입 기록, 이번 달 남은 한도</li>
+        <li>우대형·일반형·비과세형 비교와 내 유형 확인</li>
+        <li>중도해지 손익, 납입일·만기 알림</li>
+      </ul>
+      <p class="note">금융위원회·서민금융진흥원·은행과 관련 없는 참고용 계산기입니다. 정보는 기기 안에만 저장합니다.</p>
+      <div class="links">
+        <a class="primary" href="https://play.google.com/store/apps/details?id=com.jjdev.youth_savings_note">Google Play에서 보기</a>
+        <a href="youthsavingsnote/">자세히 보기</a>
+        <a href="/youth-savings-note-policy/">개인정보처리방침</a>
+      </div>
+    </article>
+    <article class="app" style="--accent:var(--deposit)">
+      <div class="head">
+        <img src="icons/depositnote.png" alt="예적금노트 아이콘" width="56" height="56">
+        <div><h3><a href="depositnote/">예적금노트</a></h3><div class="cat">예금 · 적금 이자 계산 · 만기 관리</div></div>
+      </div>
+      <p class="tagline">은행이 달라도 만기는 한곳에서</p>
+      <ul>
+        <li>예금·적금 이자 계산(단리·월복리, 세전·세후)</li>
+        <li>여러 은행 통장의 만기 D-day와 수령액 합계</li>
+        <li>자유적금 납입 기록, 중도해지·재예치 비교</li>
+        <li>만기 7일 전·당일, 정기적금 납입일 알림</li>
+      </ul>
+      <p class="note">은행·금융기관과 관련 없는 참고용 계산기입니다. 정보는 기기 안에만 저장합니다.</p>
+      <div class="links">
+        <a class="primary" href="https://play.google.com/store/apps/details?id=com.jjdev.deposit_note">Google Play에서 보기</a>
+        <a href="depositnote/">자세히 보기</a>
+        <a href="/deposit-note-policy/">개인정보처리방침</a>
       </div>
     </article>
   </section>

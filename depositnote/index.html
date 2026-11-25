@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>예적금노트 - 예금 적금 이자 계산기 | 안드로이드 앱</title>
+<meta name="description" content="예금·적금 이자를 세전·세후로 계산하고, 여러 은행 예적금 통장의 만기일과 만기 수령액을 한 화면에서 챙겨 주는 이자 계산기">
+<meta name="keywords" content="예금 이자 계산기, 적금 이자 계산기, 적금 계산기, 예금 계산기, 세후 이자, 월복리 계산, 적금 만기 관리, 예적금 관리">
+<meta name="author" content="jjdev">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://jdjhaha4.github.io/depositnote/">
+<link rel="icon" href="/icons/depositnote.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="jjdev 앱 소개">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="예적금노트 - 예금 적금 이자 계산기 | 안드로이드 앱">
+<meta property="og:description" content="예금·적금 이자를 세전·세후로 계산하고, 여러 은행 예적금 통장의 만기일과 만기 수령액을 한 화면에서 챙겨 주는 이자 계산기">
+<meta property="og:url" content="https://jdjhaha4.github.io/depositnote/">
+<meta property="og:image" content="https://jdjhaha4.github.io/images/depositnote-feature.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="예적금노트 - 예금 적금 이자 계산기 | 안드로이드 앱">
+<meta name="twitter:description" content="예금·적금 이자를 세전·세후로 계산하고, 여러 은행 예적금 통장의 만기일과 만기 수령액을 한 화면에서 챙겨 주는 이자 계산기">
+<meta name="twitter:image" content="https://jdjhaha4.github.io/images/depositnote-feature.jpg">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MobileApplication",
+   "name": "예적금노트 - 예금 적금 이자 계산기",
+   "alternateName": "예적금노트",
+   "description": "예금·적금 이자를 세전·세후로 계산하고, 여러 은행 예적금 통장의 만기일과 만기 수령액을 한 화면에서 챙겨 주는 이자 계산기",
+   "url": "https://jdjhaha4.github.io/depositnote/",
+   "sameAs": "https://play.google.com/store/apps/details?id=com.jjdev.deposit_note",
+   "operatingSystem": "Android",
+   "applicationCategory": "FinanceApplication",
+   "image": "https://jdjhaha4.github.io/icons/depositnote.png",
+   "screenshot": "https://jdjhaha4.github.io/images/depositnote-feature.jpg",
+   "contentRating": "전체이용가",
+   "inLanguage": "ko",
+   "author": {
+    "@type": "Person",
+    "name": "JI DONG JIN",
+    "alternateName": "jjdev",
+    "url": "https://jdjhaha4.github.io/",
+    "email": "mailto:jdjhaha1@gmail.com"
+   },
+   "installUrl": "https://play.google.com/store/apps/details?id=com.jjdev.deposit_note",
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "KRW"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "계산한 이자가 은행 금액과 같은가요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "공개된 방식(단리·월복리, 이자소득세)으로 계산한 추정치입니다. 은행마다 원 미만 처리와 이자 계산 방식이 달라 몇 원~몇십 원 차이가 날 수 있습니다."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "은행 계좌와 연결되나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "아니요. 계좌에 접근하지 않고, 사용자가 직접 입력한 금액·금리·기간으로만 계산합니다."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "수수료나 결제가 있나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "아니요. 결제도 수수료도 없는 무료 앱이며, 앱 안에 광고가 표시됩니다."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "회원가입이 필요한가요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "아니요. 로그인이나 회원가입 없이 바로 쓸 수 있습니다."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "입력한 정보가 서버로 전송되나요?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "아니요. 통장·납입 기록은 휴대폰 안에만 저장됩니다."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "jjdev 앱 소개",
+     "item": "https://jdjhaha4.github.io/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "예적금노트",
+     "item": "https://jdjhaha4.github.io/depositnote/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+<style>
+  :root { --bg:#f6f8f9; --card:#ffffff; --fg:#1d2327; --muted:#5f6b72; --line:#dfe5e8;
+          --pill:#e86a4a; --ping:#00796b; --speed:#1e6fd9; --memo:#4444b8; --salary:#2f5bea; --work:#0b8a55; --loan:#1f3fd1; --freelancer:#0c7f86; --game:#b23a2e; --split:#2e6be6; --yearend:#6c4ce0; --unemp:#c9501f; --pension:#a86206; --transit:#0e9384; --youth:#3b5bdb; --deposit:#0f9d8a; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111415; --card:#1a1f21; --fg:#e4e9eb; --muted:#9aa7ad; --line:#2a3134;
+            --pill:#f08a6e; --ping:#4db6ac; --speed:#6aa8f5; --memo:#a9a7ff; --salary:#7f9bff; --work:#4fd39a; --loan:#9db2ff; --freelancer:#5fd0d0; --game:#e0705f; --split:#9db8ff; --yearend:#a993ff; --unemp:#ff9466; --pension:#f2b04a; --transit:#4fd1c0; --youth:#8da4ff; --deposit:#5fd4c0; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); line-height:1.65;
+         font-family:-apple-system, "Segoe UI", "Noto Sans KR", "Apple SD Gothic Neo", sans-serif; }
+  main { max-width:880px; margin:0 auto; padding:48px 16px 64px; }
+  header h1 { margin:0; font-size:1.8rem; line-height:1.3; }
+  header p { margin:6px 0 0; color:var(--muted); }
+  h2.section { margin:40px 0 0; font-size:1.05rem; color:var(--muted); font-weight:600; }
+  .apps { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:20px; margin-top:16px; }
+  .app { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:24px;
+         border-top:4px solid var(--accent); display:flex; flex-direction:column; }
+  .head { display:flex; gap:14px; align-items:center; }
+  .head img { width:56px; height:56px; border-radius:14px; flex:none; border:1px solid var(--line); }
+  .app h3 { margin:0; font-size:1.25rem; line-height:1.3; }
+  .app h3 a { color:inherit; text-decoration:none; }
+  .cat { font-size:.82rem; color:var(--muted); }
+  .tagline { margin:14px 0 12px; color:var(--accent); font-weight:600; }
+  .app ul { margin:0 0 16px; padding-left:1.1em; }
+  .app li { margin:2px 0; }
+  .note { margin:0 0 20px; font-size:.88rem; color:var(--muted); }
+  .links { margin-top:auto; display:flex; flex-wrap:wrap; gap:8px; }
+  .links a { text-decoration:none; padding:8px 14px; border-radius:10px; font-size:.92rem;
+             border:1px solid var(--line); color:var(--fg); }
+  .links a.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+  nav.crumb { font-size:.9rem; color:var(--muted); margin-bottom:20px; }
+  nav.crumb a { color:inherit; }
+  .hero { display:flex; gap:18px; align-items:center; }
+  .hero img { width:88px; height:88px; border-radius:20px; border:1px solid var(--line); flex:none; }
+  .feature { width:100%; height:auto; border-radius:16px; border:1px solid var(--line); margin:24px 0 8px; display:block; }
+  article.detail { background:var(--card); border:1px solid var(--line); border-top:4px solid var(--accent);
+                   border-radius:16px; padding:8px 24px 24px; margin-top:24px; }
+  article.detail h2 { font-size:1.15rem; margin:28px 0 8px; color:var(--accent); }
+  article.detail ul { margin:0; padding-left:1.1em; }
+  dl.facts { display:grid; grid-template-columns:max-content 1fr; gap:6px 16px; margin:0; }
+  dl.facts dt { color:var(--muted); }
+  dl.facts dd { margin:0; }
+  .faq h3 { font-size:1rem; margin:20px 0 4px; }
+  .faq p { margin:0; }
+  footer { margin-top:48px; color:var(--muted); font-size:.9rem; }
+  footer a { color:inherit; }
+</style>
+</head>
+<body>
+<main style="--accent:var(--deposit)">
+  <nav class="crumb"><a href="/">jjdev 앱 소개</a> › 예적금노트</nav>
+  <header class="hero">
+    <img src="/icons/depositnote.png" alt="예적금노트 아이콘" width="88" height="88">
+    <div>
+      <h1>예적금노트 - 예금 적금 이자 계산기</h1>
+      <p>예금·적금 이자를 세전·세후로 계산하고, 여러 은행 예적금 통장의 만기일과 만기 수령액을 한 화면에서 챙겨 주는 이자 계산기</p>
+    </div>
+  </header>
+  <img class="feature" src="/images/depositnote-feature.jpg" alt="예적금노트 소개 이미지" width="1024" height="500">
+  <div class="links" style="margin-top:16px">
+    <a class="primary" href="https://play.google.com/store/apps/details?id=com.jjdev.deposit_note" style="background:var(--accent);border-color:var(--accent)">Google Play에서 설치</a>
+      <a href="/deposit-note-policy/">개인정보처리방침</a>
+  </div>
+
+  <article class="detail">
+<p>무료 계산기입니다. 회원가입도, 수수료도 없습니다.</p>
+<p>예적금노트는 예금·적금 이자를 세전·세후로 계산하고, 은행이 여러 곳이어도 내 예적금 통장의 만기일과 만기 수령액을 한 화면에서 보여 주는 앱입니다.</p>
+<h2>주요 기능</h2>
+<ul><li>이자 계산기: 예금(목돈)과 적금(매달), 단리·월복리 비교</li><li>세금 비교: 일반과세 15.4% · 세금우대 9.5% · 비과세</li><li>계산 과정: 원금 → 세전 이자 → 세금 → 세후 수령액 순서로 공개</li><li>내 통장 한눈에: 예금·정기적금·자유적금을 여러 개 등록, 세후 만기 합계와 가장 가까운 만기 D-day</li><li>자유적금: 넣은 날짜와 금액만 기록하면 만기까지 일수로 이자 계산</li><li>해지하기 전에, 만기 후에: 중도해지 손해와 재예치하면 얼마가 되는지 금리별 비교</li></ul>
+<h2>이런 점이 편해요</h2>
+<ul><li>만기 7일 전·만기 당일 알림, 정기적금 납입일 알림</li><li>통장마다 지금까지 넣은 돈, 납입 회차, 만기 수령액</li><li>계산 결과를 이미지로 공유</li><li>백업 파일로 휴대폰을 바꿔도 기록 그대로</li></ul>
+<h2>이런 분께 추천해요</h2>
+<ul><li>은행 여러 곳에 예금·적금이 흩어져 있는 분</li><li>가입 전에 세후 이자를 정확히 비교해 보고 싶은 분</li><li>만기일을 놓쳐 이자를 손해 본 적이 있는 분</li><li>자유적금 이자가 얼마나 붙을지 궁금한 분</li></ul>
+<h2>개인정보 보호</h2>
+<ul><li>회원가입 없이 바로 쓸 수 있습니다.</li><li>통장·납입 기록은 휴대폰 안에만 저장되고 서버로 보내지 않습니다.</li></ul>
+<h2>안내</h2>
+<ul><li>앱 안에 광고가 표시됩니다.</li><li>계산 결과는 직접 입력한 값으로 계산한 추정치이며, 실제 이자와 세금은 가입한 은행의 약관(이자 계산 방식, 원 미만 처리, 중도해지 이율)에 따라 정해집니다.</li><li>예적금노트는 은행·금융기관과 관련 없는 개인 개발 앱이며, 금융 상품을 판매하거나 중개하지 않습니다.</li></ul>
+
+    <h2>앱 정보</h2>
+    <dl class="facts">
+      <dt>플랫폼</dt><dd>Android (Google Play)</dd>
+      <dt>분류</dt><dd>금융 · 계산기</dd>
+      <dt>가격</dt><dd>무료 (광고 포함)</dd>
+      <dt>이용 등급</dt><dd>전체이용가</dd>
+      <dt>개발자</dt><dd>jjdev</dd>
+      <dt>패키지명</dt><dd>com.jjdev.deposit_note</dd>
+    </dl>
+  </article>
+
+  <section class="faq">
+    <h2 class="section">자주 묻는 질문</h2>
+    <h3>계산한 이자가 은행 금액과 같은가요?</h3>
+    <p>공개된 방식(단리·월복리, 이자소득세)으로 계산한 추정치입니다. 은행마다 원 미만 처리와 이자 계산 방식이 달라 몇 원~몇십 원 차이가 날 수 있습니다.</p>
+    <h3>은행 계좌와 연결되나요?</h3>
+    <p>아니요. 계좌에 접근하지 않고, 사용자가 직접 입력한 금액·금리·기간으로만 계산합니다.</p>
+    <h3>수수료나 결제가 있나요?</h3>
+    <p>아니요. 결제도 수수료도 없는 무료 앱이며, 앱 안에 광고가 표시됩니다.</p>
+    <h3>회원가입이 필요한가요?</h3>
+    <p>아니요. 로그인이나 회원가입 없이 바로 쓸 수 있습니다.</p>
+    <h3>입력한 정보가 서버로 전송되나요?</h3>
+    <p>아니요. 통장·납입 기록은 휴대폰 안에만 저장됩니다.</p>
+  </section>
+
+  <footer>
+    개발자: jjdev · 문의: <a href="mailto:jdjhaha1@gmail.com">jdjhaha1@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>

@@ -17,6 +17,9 @@
 - [실업급여노트 - 실업급여 계산기·실업인정일 관리](https://jdjhaha4.github.io/unemploymentnote/): 퇴사 전 급여만 넣으면 실업급여 예상액을 계산하고, 실업인정일·구직활동·받은 금액을 챙겨 주는 앱 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.unemployment_note)
 - [연금노트 - 국민연금·퇴직연금·연금저축 계산기](https://jdjhaha4.github.io/pensionnote/): 국민연금·퇴직연금(IRP)·연금저축을 모아 몇 살부터 매달 얼마, 세금은 얼마인지 계산하고 연금 세액공제 마감을 알려 주는 계산기 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.pension_note)
 - [부동산세금노트 - 양도세·취득세 계산기](https://jdjhaha4.github.io/realestatenote/): 양도세·취득세·중개보수·증여세를 계산 과정까지 보여 주고, 내 집의 절세일과 신고 기한을 알려 주는 부동산 세금 계산기 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.realestate_tax_note)
+- [교통비노트 - K패스 모두의카드 환급 계산](https://jdjhaha4.github.io/transitnote/): 대중교통을 탈 때 한 번 눌러 기록하면 K-패스 환급 세 방식(기본형·일반형·플러스형) 중 얼마 받을지 바로 계산해 주는 교통비 환급 계산기 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.transit_note)
+- [청년미래적금노트 - 만기 수령액 계산](https://jdjhaha4.github.io/youthsavingsnote/): 청년미래적금에 매달 넣은 돈을 기록하면 정부기여금·이자·만기 수령액을 계산 과정까지 보여 주고, 우대형 여부와 중도해지 손익까지 알려 주는 적금 노트 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.youth_savings_note)
+- [예적금노트 - 예금 적금 이자 계산기](https://jdjhaha4.github.io/depositnote/): 예금·적금 이자를 세전·세후로 계산하고, 여러 은행 예적금 통장의 만기일과 만기 수령액을 한 화면에서 챙겨 주는 이자 계산기 (Google Play: https://play.google.com/store/apps/details?id=com.jjdev.deposit_note)
 
 ## 게임
 
